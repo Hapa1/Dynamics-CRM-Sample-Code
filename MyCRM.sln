@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlugins", "MyPlugins\MyPlugins.csproj", "{EC945703-DF92-43AA-B891-189EA180C56B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Resources", "Web Resources", "{ADA7F3FC-55F2-4F0C-B0F6-75BF7D611456}"
+	ProjectSection(SolutionItems) = preProject
+		AutopopulateContact.js = AutopopulateContact.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

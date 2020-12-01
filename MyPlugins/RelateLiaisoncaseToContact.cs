@@ -121,6 +121,7 @@ namespace MyCRM
         /// </returns>
         public static String GetManyToManyRelationshipMetadata(string entity1LogicalName, string entity2LogicalName, IOrganizationService service)
         {
+            //
             //String array to store logical names provided in the parameters. Sort so we can compare it later
             string[] entityLogicalNamesInput = new string[2] { entity1LogicalName, entity2LogicalName };
             Array.Sort(entityLogicalNamesInput);
